@@ -1,12 +1,43 @@
-# React + Vite
+# React Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Calculator application built with React.  
+This project demonstrates component-based architecture, state management using `useState`, and dynamic rendering of calculator buttons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Perform basic arithmetic operations
+- Interactive calculator UI
+- Real-time display updates
+- Error handling for invalid expressions
+- Reusable React components
+- CSS Modules for scoped styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS Modules
+- React Hooks (`useState`)
+
+---
+
+## Project Structure
+
+```bash
+src/
+│
+├── Components/
+│   ├── ButtonContainer.jsx
+│   ├── ButtonContainer.module.css
+│   ├── Display.jsx
+│   └── Display.module.css
+│
+├── App.jsx
+├── App.module.css
+└── main.jsx
+```
+<img width="536" height="672" alt="Screenshot 2026-05-14 at 3 46 54 PM" src="https://github.com/user-attachments/assets/f31db964-8e55-43d6-b825-d1fb06cc2714" />
